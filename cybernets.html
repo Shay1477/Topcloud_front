@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>topcloud</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <!--<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700;800&display=swap" rel="stylesheet">-->
+    <link href="fancybox-master/dist/jquery.fancybox.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick-theme.css" />
+    <link href="select2/dist/css/select2.min.css" rel="stylesheet" />
+    <!--Plugin CSS file with desired skin-->
+    <link rel="stylesheet" href="ion.rangeSlider-master/css/ion.rangeSlider.min.css" />
+    <link rel="stylesheet" href="css/styles.css?v=1">
+    <link rel="stylesheet" href="css/adaptive.css?v=1">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="spaceBetween alignCenter desktopMenu">
+                <div class="header__logo"></div>
+                <ul class="header__menu alignCenter justifyStart">
+                    <li>
+                        <a href="#">О нас</a>
+                    </li>
+                    <li>
+                        <a href="#">Услуги</a>
+                    </li>
+                    <li>
+                        <a href="#">конфигуратор</a>
+                    </li>
+                    <li>
+                        <a href="#" class="uppercase">ЦОД</a>
+                    </li>
+                </ul>
+                <a href="#" class="btn btn_dark header__cabinetLink">
+                    <p>личный кабинет</p>
+                </a>
+            </div>
+        </div>
+    </header>
+    <div class="headerOffset"></div>
+
+    <section class="navigation">
+        <div class="container">
+            <div class="navigation__bg navigation__bg_kubernetes">
+                <div class="row">
+                    <div class="col-lg-10 offset-lg-1">
+                        <a href="/" class="navigation__link">
+                            <p>к услугам</p>
+                        </a>
+                        <h1 class="navigation__header">Topcloud Managed Kubernetes </h1>
+                        <p class="navigation__description">Сервис автоматического развёртывания, масштабирования и
+                            управления приложениями на основе Kubernetes. Облегчает процесс создания кластеров и
+                            управления ими.</p>
+                        <!--<a href="#" class="btn btn-violet navigation__btn">
+                            <p>Протестировать сервис</p>
+                        </a>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="cybernets-points">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="cybernets-point cybernets-point_blue">
+                        <img src="img/cyber1.svg" alt="" class="cybernets-point__img">
+                        <div class="cybernets-point__text">
+                            <p class="cybernets-point__name">PAY-AS-YOU-GO</p>
+                            <p class="cybernets-point__desctiption">Платите только за реально использованные ресурсы без
+                                вложений на старте</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="cybernets-point cybernets-point_orange">
+                        <img src="img/cyber2.svg" alt="" class="cybernets-point__img">
+                        <div class="cybernets-point__text">
+                            <p class="cybernets-point__name">Все прозрачно</p>
+                            <p class="cybernets-point__desctiption">Расчет производится на основе статистики потребления
+                                RAM
+                                и CPU внутри каждого контейнера</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="cybernets-point cybernets-point_green">
+                        <img src="img/cyber3.svg" alt="" class="cybernets-point__img">
+                        <div class="cybernets-point__text">
+                            <p class="cybernets-point__name">Без переплат</p>
+                            <p class="cybernets-point__desctiption">По завершению всплеска трафика мощность
+                                автоматически
+                                снижается, а потребление возвращаетсяк прежнему уровню</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="cybernets-instruments">
+        <div class="container">
+            <div class="row  justify-content-center">
+                <div class="col-12">
+                    <h2>Все инструменты под рукой!</h2>
+                </div>
+                <div class="col-xxl-3 col-xl-4 col-sm-6 col-12">
+                    <div class="cybernets-instrument">
+                        <p class="cybernets-instrument__name">Плагин CNI</p>
+                        <p class="cybernets-instrument__description">Установка обновлений для ОС</p>
+                        <img class="cybernets-instrument__img" src="img/instr1.svg" alt="">
+                    </div>
+                </div>
+                <div class="col-xxl-3 col-xl-4 col-sm-6 col-12">
+                    <div class="cybernets-instrument">
+                        <p class="cybernets-instrument__name">Входной контроль Traefik</p>
+                        <p class="cybernets-instrument__description">Для маршрутизации HTTP (S) запросов к сервисам</p>
+                        <img class="cybernets-instrument__img" src="img/instr2.svg" alt="">
+                    </div>
+                </div>
+                <div class="col-xxl-3 col-xl-4 col-sm-6 col-12">
+                    <div class="cybernets-instrument">
+                        <p class="cybernets-instrument__name">Менеджер пакетов HELM</p>
+                        <p class="cybernets-instrument__description">Установка обновлений для ОС</p>
+                        <img class="cybernets-instrument__img" src="img/instr3.svg" alt="">
+                    </div>
+                </div>
+                <div class="col-xxl-3 col-xl-4 col-sm-6 col-12">
+                    <div class="cybernets-instrument">
+                        <p class="cybernets-instrument__name">CoreDNS </p>
+                        <p class="cybernets-instrument__description">Для разрешения внутренних имен хостов</p>
+                        <img class="cybernets-instrument__img" src="img/instr4.svg" alt="">
+                    </div>
+                </div>
+                <div class="col-xxl-3 col-xl-4 col-sm-6 col-12">
+                    <div class="cybernets-instrument">
+                        <p class="cybernets-instrument__name">Динамическая служба</p>
+                        <p class="cybernets-instrument__description">Персистенс-дисков</p>
+                        <img class="cybernets-instrument__img" src="img/instr5.svg" alt="">
+                    </div>
+                </div>
+                <div class="col-xxl-3 col-xl-4 col-sm-6 col-12">
+                    <div class="cybernets-instrument">
+                        <p class="cybernets-instrument__name">Metrics Server</p>
+                        <p class="cybernets-instrument__description">Для сбора статистики</p>
+                        <img class="cybernets-instrument__img" src="img/instr6.svg" alt="">
+                    </div>
+                </div>
+                <div class="col-xxl-3 col-xl-4 col-sm-6 col-12">
+                    <div class="cybernets-instrument">
+                        <p class="cybernets-instrument__name">Встроенный SSL</p>
+                        <p class="cybernets-instrument__description">Для защиты ингрес-сети</p>
+                        <img class="cybernets-instrument__img" src="img/instr7.svg" alt="">
+                    </div>
+                </div>
+                <div class="col-xxl-3 col-xl-4 col-sm-6 col-12">
+                    <div class="cybernets-instrument">
+                        <p class="cybernets-instrument__name">Веб-интерфейс</p>
+                        <p class="cybernets-instrument__description">Для управления Kubernetes</p>
+                        <img class="cybernets-instrument__img" src="img/instr8.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="cybernets">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2>Рассчитать стоимость</h2>
+                </div>
+                <div class="col-lg-8 col-xxl-6 offset-xxl-1">
+                    <div class="multiSpecificationBlock">
+                        <div class="specificationBlock specificationBlock_norange">
+                            <div class="spaceBetween">
+                                <div class="specificationBlock__name">Тип мастера</div>
+                                <div></div>
+                            </div>
+                            <div class="radio-button-classics">
+                                <div class="radio-button-classic">
+                                    <input id="masterTypeZonal" type="radio" name="masterType" value="zonal" checked>
+                                    <label for="masterTypeZonal">
+                                        <p class="radio-button-classic__name">Зональный</p>
+                                        <p class="radio-button-classic__description">
+                                            *TEST*Анализ зарубежного опыта сфокусирован. В общем, точечное воздействие
+                                            усиливает стиль менеджмента, осознав маркетинг как часть производства.
+                                        </p>
+                                    </label>
+                                </div>
+                                <div class="radio-button-classic">
+                                    <input id="masterTypeRegional" type="radio" name="masterType" value="regional">
+                                    <label for="masterTypeRegional">
+                                        <p class="radio-button-classic__name">Региональный</p>
+                                        <p class="radio-button-classic__description">
+                                            *TEST*Молодежная аудитория откровенна. Направленный маркетинг, безусловно,
+                                            неоднозначен.
+                                        </p>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="multiSpecificationBlock__separator"></div>
+                        <div class="specificationBlock">
+                            <div class="spaceBetween">
+                                <div class="specificationBlock__name">Гарантированная доля vCPU</div>
+                                <div></div>
+                            </div>
+                            <div class="range-block">
+                                <input type="text"
+                                    class="js-range-slider specificationBlock__amount-range js-range-slider_custom js-range-slider_custom-vcpuShare specificationBlock__amount-range-no-text"
+                                    name="vCPUShareRange" value="" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="multiSpecificationBlock">
+                        <div class="specificationBlock">
+                            <div class="spaceBetween">
+                                <div class="specificationBlock__name">Количество vCPU</div>
+                                <input type="text" name="VCPUAmount"
+                                    class="specificationBlock__amount specificationBlock__amount_custom" value="2"
+                                    data-key="rangeVCPUValues">
+                            </div>
+                            <p class="specificationBlock__description">От 2 до 96</p>
+                            <div class="range-block">
+                                <input type="text"
+                                    class="js-range-slider specificationBlock__amount-range js-range-slider_custom-vCPU js-range-slider_custom"
+                                    name="VCPUAmountRange" value="" data-key="rangeVCPUValues" />
+                            </div>
+                        </div>
+                        <div class="multiSpecificationBlock__separator"></div>
+                        <div class="specificationBlock">
+                            <div class="spaceBetween">
+                                <div class="specificationBlock__name">Объём RAM</div>
+                                <input type="text" name="VRAMAmount" class="specificationBlock__amount" value="1">
+                            </div>
+                            <p class="specificationBlock__description">от 1 ГБ до 8 ГБ</p>
+                            <div class="range-block">
+                                <input type="text" class="js-range-slider specificationBlock__amount-range"
+                                    name="VRAMAmountRange" value="" data-type="single" data-min="1" data-max="8"
+                                    data-grid="true" data-grid-num="7" />
+                            </div>
+                        </div>
+                        <div class="onlyRegional" style="display: none;">
+                            <div class="multiSpecificationBlock__separator"></div>
+                            <div class="specificationBlock">
+                                <div class="spaceBetween">
+                                    <div class="specificationBlock__name">Кол-во узлов</div>
+                                    <input type="text" name="HostAmount" class="specificationBlock__amount" value="1">
+                                </div>
+                                <p class="specificationBlock__description">от 1 до 32</p>
+                                <div class="range-block">
+                                    <input type="text" class="js-range-slider specificationBlock__amount-range"
+                                        name="HostAmountRange" value="" data-type="single" data-min="1" data-max="32" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="multiSpecificationBlock__separator"></div>
+                        <div class="specificationBlock additionals">
+                            <div class="spaceBetween">
+                                <div class="specificationBlock__name mb24">Дополнительно</div>
+                                <div></div>
+                            </div>
+                            <div class="inputwrap checkbox">
+                                <input type="checkbox" name="vm" id="vm">
+                                <label for="vm">
+                                    <p class="checkbox__header">Прерываемая Bиртуальная машина</p>
+                                    <p class="checkbox__description">Это виртуальные машины, которые могут быть
+                                        принудительно остановлены в любой момент. Это может произойти в двух случаях:
+                                        Если с момента запуска виртуальной машины прошло 24 часа. Если возникнет
+                                        нехватка ресурсов для запуска обычной виртуальной машины в той же зоне
+                                        доступности.</p>
+                                </label>
+                            </div>
+                            <div class="inputwrap checkbox">
+                                <input type="checkbox" name="publicIP" id="publicIP">
+                                <label for="publicIP">
+                                    <p class="checkbox__header">Публичный IP адрес</p>
+                                    <p class="checkbox__description">Публичным IP-адресом называется IP-адрес, под
+                                        которым вас видят устройства в интернете, и он является уникальным во всей сети
+                                        интернет. Доступ к устройству с публичным IP-адресом можно получить из любой
+                                        точки глобальной сети.</p>
+                                </label>
+                            </div>
+                            <div class="inputwrap checkbox">
+                                <input type="checkbox" name="testing" id="testing">
+                                <label for="testing">
+                                    <p class="checkbox__header">Нужен тестовый доступ</p>
+                                    <p class="checkbox__description">Молодежная аудитория откровенна.
+                                        Направленный маркетинг, безусловно, неоднозначен.</p>
+                                </label>
+                            </div>
+                            <div class="inputwrap checkbox">
+                                <input type="checkbox" name="consultation" id="consultation">
+                                <label for="consultation">
+                                    <p class="checkbox__header">Нужна консультация</p>
+                                    <p class="checkbox__description">Анализ зарубежного опыта сфокусирован.
+                                        В общем, точечное воздействие усиливает стиль менеджмента, осознав
+                                        маркетинг как часть производства. Анализ зарубежного опыта
+                                        сфокусирован. В общем, точечное воздействие усиливает стиль
+                                        менеджмента, осознав маркетинг как часть производства.</p>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="multiSpecificationBlock diskBlock" data-duplication="disk">
+                        <div class="specificationBlock">
+                            <div class="spaceBetween">
+                                <div class="specificationBlock__name mb24">Диск</div>
+                                <div></div>
+                            </div>
+                            <div class="radio-buttons-classic">
+                                <div class="radio-button-classic">
+                                    <input id="diskTypeHDD1" type="radio" name="diskType1" value="hdd" checked>
+                                    <label for="diskTypeHDD1">
+                                        <p class="radio-button-classic__name">HDD</p>
+                                        <p class="radio-button-classic__description">
+                                            *TEST*Анализ зарубежного опыта сфокусирован. В общем, точечное воздействие
+                                            усиливает стиль менеджмента, осознав маркетинг как часть производства.
+                                        </p>
+                                    </label>
+                                </div>
+                                <div class="radio-button-classic">
+                                    <input id="diskTypeSSD1" type="radio" name="diskType1" value="ssd">
+                                    <label for="diskTypeSSD1">
+                                        <p class="radio-button-classic__name">SSD</p>
+                                        <p class="radio-button-classic__description">
+                                            *TEST*Молодежная аудитория откровенна. Направленный маркетинг, безусловно,
+                                            неоднозначен.
+                                        </p>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="multiSpecificationBlock__separator"></div>
+                        <div class="specificationBlock">
+                            <div class="spaceBetween">
+                                <div class="specificationBlock__name">Размер диска</div>
+                                <input type="text" name="DiskAmount1"
+                                    class="specificationBlock__amount specificationBlock__amount_disk" value="1"
+                                    data-key="rangeDiskValues">
+                            </div>
+                            <!--<p class="specificationBlock__description">от 64 ГБ до 4096ГБ</p>-->
+                            <div class="range-block">
+                                <input type="text" class="js-range-slider specificationBlock__amount-range"
+                                    name="DiskAmountRange1" value="" data-type="single" data-min="1" data-max="99999"
+                                    data-key="rangeDiskValues" />
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="duplicateBtn" data-duplicate="disk">
+                        <p>добавить диск</p>
+                    </a>
+                </div>
+                <div class="col-lg-4">
+                    <div class="sumBlock">
+                        <div class="spaceBetween wrap-xl">
+                            <span>
+                                <p class="sumBlock__final-price">19 890 ₽</p>
+                                <p class="sumBlock__final-price-notice">(без НДС)</p>
+                            </span>
+                            <div class="inputWrap">
+                                <select name="paymentPeriod" id="paymentPeriod" class="select">
+                                    <option value="month" selected>В месяц</option>
+                                    <option value="year">В год</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="sumBlock__row">
+                            <p class="sumblock-row__text">
+                                Ресурс
+                            </p>
+                            <p class="sumblock-row__quantity">
+                                Кол-во
+                            </p>
+                            <p class="sumblock-row__single">
+                                Цена
+                            </p>
+                            <p class="sumblock-row__price">
+                                Сумма
+                            </p>
+                        </div>
+                        <div class="sumBlock__row basePrice">
+                            <p class="sumblock-row__text sumblock-row__text_bold">
+                            </p>
+                            <p class="sumblock-row__quantity">
+                            </p>
+                            <p class="sumblock-row__single">
+                            </p>
+                            <p class="sumblock-row__price">
+                            </p>
+                        </div>
+                        <div class="sumBlock__row masterTypePrice">
+                            <p class="sumblock-row__text">
+                            </p>
+                            <p class="sumblock-row__quantity">
+                            </p>
+                            <p class="sumblock-row__single">
+                            </p>
+                            <p class="sumblock-row__price">
+                            </p>
+                        </div>
+                        <div class="sumBlock__row vCPUBasePrice">
+                            <p class="sumblock-row__text">
+                                Intel Ice Lake. 20% vCPU
+                            </p>
+                            <p class="sumblock-row__quantity">
+                            </p>
+                            <p class="sumblock-row__single">
+                            </p>
+                            <p class="sumblock-row__price">
+                            </p>
+                        </div>
+                        <div class="sumBlock__row vRAMGBBasePrice">
+                            <p class="sumblock-row__text">
+                                Intel Ice Lake. RAM
+                            </p>
+                            <p class="sumblock-row__quantity">
+                            </p>
+                            <p class="sumblock-row__single">
+                            </p>
+                            <p class="sumblock-row__price">
+                            </p>
+                        </div>
+                        <div class="sumBlock__row HDDSum">
+                            <p class="sumblock-row__text">
+                                Стандартное сетевое хранилище
+                                (HDD)
+                            </p>
+                            <p class="sumblock-row__quantity">
+                            </p>
+                            <p class="sumblock-row__single">
+                            </p>
+                            <p class="sumblock-row__price">
+                            </p>
+                        </div>
+                        <div class="sumBlock__row SSDSum">
+                            <p class="sumblock-row__text">
+                                Стандартное сетевое хранилище
+                                (HDD)
+                            </p>
+                            <p class="sumblock-row__quantity">
+                            </p>
+                            <p class="sumblock-row__single">
+                            </p>
+                            <p class="sumblock-row__price">
+                            </p>
+                        </div>
+                        <div class="sumBlock__row hostBasePrice">
+                            <p class="sumblock-row__text">
+                                Количество хостов
+                            </p>
+                            <p class="sumblock-row__quantity">
+                            </p>
+                            <p class="sumblock-row__single">
+                            </p>
+                            <p class="sumblock-row__price">
+                            </p>
+                        </div>
+                        <div class="sumBlock__row additionals">
+                            <p class="sumblock-row__text">
+                                Администратор свяжется с вами насчет дополнительных услуг
+                            </p>
+                        </div>
+                        <a href="#" class="sumBlock__btn btn_orange btn">
+                            <p>заказать услугу</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12 col-sm-4 col-12">
+                    <div class="footer_logo"></div>
+                </div>
+                <div class="col-xl-5 col-sm-8 col-12 d-none d-sm-block">
+                    <p class="footer__info">
+                        TopCloud (ООО «Облачные технологии») – облачный провайдер услуг и сервисов
+                        по моделям IaaS
+                        и PaaS (IT-инфраструктура в аренду) для физических лиц,
+                        стартапов, малого, среднего, крупного бизнеса, государственных учреждений
+                        и корпораций.
+                        <br>
+                        <br>
+                        Предлагаем 50+ облачных сервисов для разработки приложений, виртуальный ЦОД на базе VMware,
+                        платформу для разработки machine learning полного цикла. Соответствие 152-ФЗ.
+                        <br>
+                        <br>
+                    <p class="footer__info d-none d-xl-block">
+                        Copyright TopCloud ©. Все права защищены. 2021.
+                    </p>
+                    </p>
+                </div>
+                <div class="col-lg-2 offset-lg-1 d-none d-xl-block">
+                    <a href="#">О нас</a>
+                    <a href="#">Услуги</a>
+                    <a href="#">ЦОД</a>
+                    <a href="#">Личный кабинет</a>
+                </div>
+                <div class="col-xl-2 col-sm-4 offset-sm-4 offset-xl-0 col-12">
+                    <p class="footer__description">Техническая поддержка:</p>
+                    <a href="#" class="footer__phone">8 800 000-00-00
+                    </a>
+                    <a href="#" class="footer__mailBLue">support@topcloud.ru</a>
+                    <a href="#">Чат в Telegram</a>
+                </div>
+                <div class="col-xl-2 col-sm-4 col-12">
+                    <p class="footer__description">Отдел продаж:</p>
+                    <a href="#" class="footer__phone">8 800 000-00-00
+                    </a>
+                    <a href="#" class="footer__mailUnderlined">sales@topcloud.ru</a>
+                </div>
+                <div class="d-xl-none col-sm-8 offset-sm-4 col-12 d-none d-sm-block">
+                    <p class="footer__info copyright">
+                        Copyright TopCloud ©. Все права защищены. 2021.
+                    </p>
+                </div>
+                <div class="col-xl-5 col-sm-8 d-sm-none">
+                    <p class="footer__info">
+                        TopCloud (ООО «Облачные технологии») – облачный провайдер услуг и сервисов
+                        по моделям IaaS
+                        и PaaS (IT-инфраструктура в аренду) для физических лиц,
+                        стартапов, малого, среднего, крупного бизнеса, государственных учреждений
+                        и корпораций.
+                        <br>
+                        <br>
+                        Предлагаем 50+ облачных сервисов для разработки приложений, виртуальный ЦОД на базе VMware,
+                        платформу для разработки machine learning полного цикла. Соответствие 152-ФЗ.
+                        <br>
+                        <br>
+                    <p class="footer__info d-none d-xl-block">
+                        Copyright TopCloud ©. Все права защищены. 2021.
+                    </p>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <div class="popups">
+
+    </div>
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
+        </script>
+    <script src="fancybox-master/dist/jquery.fancybox.js"></script>
+    <script type="text/javascript" src="slick-1.8.1/slick/slick.min.js"></script>
+    <script src="ion.rangeSlider-master/js/ion.rangeSlider.min.js"></script>
+    <script src="select2/dist/js/select2.min.js"></script>
+    <script src="js/script.js?v=1"></script>
+</body>
+
+</html>

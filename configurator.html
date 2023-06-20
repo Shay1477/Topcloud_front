@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>topcloud</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <!--<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700;800&display=swap" rel="stylesheet">-->
+    <link href="fancybox-master/dist/jquery.fancybox.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick-theme.css" />
+
+    <link rel="stylesheet" href="css/styles.css?v=1">
+    <link rel="stylesheet" href="css/adaptive.css?v=1">
+    <!--Plugin CSS file with desired skin-->
+    <link rel="stylesheet" href="ion.rangeSlider-master/css/ion.rangeSlider.min.css" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="spaceBetween alignCenter desktopMenu">
+                <div class="header__logo"></div>
+                <ul class="header__menu alignCenter justifyStart">
+                    <li>
+                        <a href="#">О нас</a>
+                    </li>
+                    <li>
+                        <a href="#">Услуги</a>
+                    </li>
+                    <li>
+                        <a href="#">конфигуратор</a>
+                    </li>
+                    <li>
+                        <a href="#" class="uppercase">ЦОД</a>
+                    </li>
+                </ul>
+                <a href="#" class="btn btn_dark header__cabinetLink">
+                    <p>личный кабинет</p>
+                </a>
+            </div>
+        </div>
+    </header>
+    <div class="headerOffset"></div>
+
+    <section class="navigation">
+        <div class="container">
+            <div class="navigation__bg">
+                <div class="row">
+                    <div class="col-lg-10 offset-lg-1">
+                        <a href="/" class="navigation__link">
+                            <p>на главную</p>
+                        </a>
+                        <h1 class="navigation__header">Конфигуратор подбора услуги</h1>
+                        <p class="navigation__description">Подберите под свои требования. Система координат, в первом
+                            приближении, изоморфна.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="configurator">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-8">
+                    <div class="citiesRadio">
+                        <div class="radio-buttons">
+                            <div class="radio-button">
+                                <input id="city1" type="radio" name="city" value="Москва" checked>
+                                <label for="city1">Москва</label>
+                            </div>
+                            <div class="radio-button">
+                                <input id="city2" type="radio" name="city" value="Санкт-Петербург">
+                                <label for="city2">Санкт-Петербург</label>
+                            </div>
+                            <div class="radio-button">
+                                <input id="city3" type="radio" name="city" value="Екатеринбург">
+                                <label for="city3">Екатеринбург</label>
+                            </div>
+                            <div class="radio-button">
+                                <input id="city4" type="radio" name="city" value="Сочи">
+                                <label for="city4">Сочи</label>
+                            </div>
+                            <div class="radio-button">
+                                <input id="city5" type="radio" name="city" value="Новосибирск">
+                                <label for="city5">Новосибирск</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <div class="vendorsRadio">
+                                <div class="radio-buttons">
+                                    <div class="radio-button vendors-radio-button">
+                                        <input id="vendor1" type="radio" name="vendor" value="Cloud4y" checked>
+                                        <label for="vendor1">
+                                            <div class="vendors-radio-button__bg">
+                                                <img src="img/vendor1.svg" alt="" class="vendors-radio-button__img">
+                                                <img src="img/vendor_inactive1.svg" alt="" class="vendors-radio-button__img_inactive">
+                                            </div>
+                                            SLA 99,982%
+                                        </label>
+                                    </div>
+                                    <div class="radio-button">
+                                        <input id="vendor2" type="radio" name="vendor" value="Selectel">
+                                        <label for="vendor2">
+                                            <div class="vendors-radio-button__bg">
+                                                <img src="img/vendor2.svg" alt="" class="vendors-radio-button__img">
+                                                <img src="img/vendor_inactive2.svg" alt="" class="vendors-radio-button__img_inactive">
+                                            </div>
+                                            SLA 99,982%
+                                        </label>
+                                    </div>
+                                    <div class="radio-button">
+                                        <input id="vendor3" type="radio" name="vendor" value="Cloud">
+                                        <label for="vendor3">
+                                            <div class="vendors-radio-button__bg">
+                                                <img src="img/vendor3.svg" alt="" class="vendors-radio-button__img">
+                                                <img src="img/vendor_inactive3.svg" alt="" class="vendors-radio-button__img_inactive">
+                                            </div>
+                                            SLA 99,982%
+                                        </label>
+                                    </div>
+                                    <div class="radio-button">
+                                        <input id="vendor4" type="radio" name="vendor" value="DataLine">
+                                        <label for="vendor4">
+                                            <div class="vendors-radio-button__bg">
+                                                <img src="img/vendor4.svg" alt="" class="vendors-radio-button__img">
+                                                <img src="img/vendor_inactive4.svg" alt="" class="vendors-radio-button__img_inactive">
+                                            </div>
+                                            SLA 99,982%
+                                        </label>
+                                    </div>
+                                    <div class="radio-button">
+                                        <input id="vendor5" type="radio" name="vendor" value="Rostelecom">
+                                        <label for="vendor5">
+                                            <div class="vendors-radio-button__bg">
+                                                <img src="img/vendor5.svg" alt="" class="vendors-radio-button__img">
+                                                <img src="img/vendor_inactive5.svg" alt="" class="vendors-radio-button__img_inactive">
+                                            </div>
+                                            SLA 99,982%
+                                        </label>
+                                    </div>
+                                    <div class="radio-button">
+                                        <input id="vendor6" type="radio" name="vendor" value="Oncloud">
+                                        <label for="vendor6">
+                                            <div class="vendors-radio-button__bg">
+                                                <img src="img/vendor6.svg" alt="" class="vendors-radio-button__img">
+                                                <img src="img/vendor_inactive6.svg" alt="" class="vendors-radio-button__img_inactive">
+                                            </div>
+                                            SLA 99,982%
+                                        </label>
+                                    </div>
+                                    <div class="vendorsRadio__coming-soon">
+                                        <p>Появится позднее</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-9">
+                            <div class="osRadio">
+                                <div class="radio-buttons">
+                                    <div class="radio-button">
+                                        <input id="os1" type="radio" name="os" value="Linux" checked>
+                                        <label for="os1">Linux</label>
+                                    </div>
+                                    <div class="radio-button">
+                                        <input id="os2" type="radio" name="os" value="Windows">
+                                        <label for="os2">Windows</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="multiSpecificationBlock">
+                                <div class="specificationBlock">
+                                    <div class="spaceBetween">
+                                        <div class="specificationBlock__name">vCPU, шт.</div>
+                                        <input type="text" name="VCPUAmount" class="specificationBlock__amount"
+                                            value="0">
+                                    </div>
+                                    <div class="range-block">
+                                        <input type="text" class="js-range-slider specificationBlock__amount-range"
+                                            name="VCPUAmountRange" value="" data-type="single" data-min="0"
+                                            data-max="9999" />
+                                    </div>
+                                    <div class="spaceBetween wrap-md">
+                                        <div class="specificationBlock__prompt">
+                                            <p>Укажите максимум vCPU на 1 VM</p>
+                                        </div>
+                                        <div class="radio-togglers specificationBlock__toggler">
+                                            <div class="radio-toggler">
+                                                <input id="maxVCPU16" type="radio" name="maxVCPU" value="16">
+                                                <label for="maxVCPU16">16</label>
+                                            </div>
+                                            <div class="radio-toggler">
+                                                <input id="maxVCPU32" type="radio" name="maxVCPU" value="32">
+                                                <label for="maxVCPU32">32</label>
+                                            </div>
+                                            <div class="radio-toggler">
+                                                <input id="maxVCPU64" type="radio" name="maxVCPU" value="64">
+                                                <label for="maxVCPU64">64</label>
+                                            </div>
+                                            <div class="radio-toggler">
+                                                <input id="maxVCPU128" type="radio" name="maxVCPU" value="128">
+                                                <label for="maxVCPU128">128</label>
+                                            </div>
+                                            <div class="radio-toggler">
+                                                <input id="maxVCPU256" type="radio" name="maxVCPU" value="256">
+                                                <label for="maxVCPU256">256</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="multiSpecificationBlock__separator"></div>
+                                <div class="specificationBlock">
+                                    <div class="spaceBetween">
+                                        <div class="specificationBlock__name">vRAM, GB</div>
+                                        <input type="text" name="VRAMAmount" class="specificationBlock__amount"
+                                            value="0">
+                                    </div>
+                                    <div class="range-block">
+                                        <input type="text" class="js-range-slider specificationBlock__amount-range"
+                                            name="VRAMAmountRange" value="" data-type="single" data-min="0"
+                                            data-max="9999" />
+                                    </div>
+                                    <div class="spaceBetween wrap-md">
+                                        <div class="specificationBlock__prompt">
+                                            <p>Укажите максимум vRAM GB на 1 VM</p>
+                                        </div>
+                                        <div class="radio-togglers specificationBlock__toggler">
+                                            <div class="radio-toggler">
+                                                <input id="maxVRAM512" type="radio" name="maxVRAM" value="512">
+                                                <label for="maxVRAM512">512</label>
+                                            </div>
+                                            <div class="radio-toggler">
+                                                <input id="maxVRAM1024" type="radio" name="maxVRAM" value="1024">
+                                                <label for="maxVRAM1024">1024</label>
+                                            </div>
+                                            <div class="radio-toggler">
+                                                <input id="maxVRAM2048" type="radio" name="maxVRAM" value="2048">
+                                                <label for="maxVRAM2048">2048</label>
+                                            </div>
+                                            <div class="radio-toggler">
+                                                <input id="maxVRAM4096" type="radio" name="maxVRAM" value="4096">
+                                                <label for="maxVRAM4096">4096</label>
+                                            </div>
+                                            <div class="radio-toggler">
+                                                <input id="maxVRAM6144" type="radio" name="maxVRAM" value="6144">
+                                                <label for="maxVRAM6144">6144</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="multiSpecificationBlock diskBlock" data-duplication="disk">
+                                <div class="specificationBlock">
+                                    <div class="spaceBetween">
+                                        <div class="specificationBlock__name">Disk, GB</div>
+                                        <input type="text" name="DiskAmount1" class="specificationBlock__amount specificationBlock__amount_disk"
+                                            value="0">
+                                    </div>
+                                    <div class="range-block">
+                                        <input type="text" class="js-range-slider specificationBlock__amount-range"
+                                            name="DiskAmountRange1" value="" data-type="single" data-min="0"
+                                            data-max="99999" />
+                                    </div>
+                                </div>
+                                <div class="multiSpecificationBlock__separator"></div>
+                                <div class="specificationBlock specificationBlock_norange">
+                                    <div class="spaceBetween">
+                                        <div class="specificationBlock__name">Disk, IOPS на 1 GB</div>
+                                        <input type="text" name="DiskIOPSAmount" class="specificationBlock__amount specificationBlock__amount_diskIOPS"
+                                        value="0.3">
+                                    </div>
+                                    <div class="spaceBetween wrap-md">
+                                        <div class="specificationBlock__prompt">
+                                            <p>Выберите тип диска</p>
+                                        </div>
+                                        <div class="radio-togglers disk-type">
+                                            <div class="radio-toggler">
+                                                <input id="diskTypeNLSAS1" type="radio" name="diskType1" value="NLSAS"
+                                                    checked>
+                                                <label for="diskTypeNLSAS1">NL-SAS</label>
+                                            </div>
+                                            <div class="radio-toggler">
+                                                <input id="diskTypeSAS1" type="radio" name="diskType1" value="SAS">
+                                                <label for="diskTypeSAS1">SAS</label>
+                                            </div>
+                                            <div class="radio-toggler">
+                                                <input id="diskTypeSSD1" type="radio" name="diskType1" value="SSD">
+                                                <label for="diskTypeSSD1">SSD</label>
+                                            </div>
+                                            <div class="radio-toggler">
+                                                <input id="diskTypenVME1" type="radio" name="diskType1" value="nVME">
+                                                <label for="diskTypenVME1">nVME</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#" class="duplicateBtn" data-duplicate="disk">
+                                <p>добавить диск</p>
+                            </a>
+                            <div class="multiSpecificationBlock">
+                                <div class="specificationBlock">
+                                    <div class="spaceBetween">
+                                        <div class="specificationBlock__name">Внешний IPv4, шт.</div>
+                                        <input type="text" name="extIPAmount" class="specificationBlock__amount"
+                                            value="1">
+                                    </div>
+                                    <div class="range-block">
+                                        <input type="text" class="js-range-slider specificationBlock__amount-range"
+                                            name="extIPAmountRange" value="" data-type="single" data-min="1"
+                                            data-max="10" data-grid="true" data-grid-num="9" />
+                                    </div>
+                                </div>
+                                <div class="multiSpecificationBlock__separator"></div>
+                                <div class="specificationBlock">
+                                    <div class="spaceBetween">
+                                        <div class="specificationBlock__name">Скорость в Internet, Mbit/s</div>
+                                        <input type="text" name="speedAmount"
+                                            class="specificationBlock__amount specificationBlock__amount_custom"
+                                            value="10" data-key="rangeSpeedValues">
+                                    </div>
+                                    <div class="range-block">
+                                        <input type="text"
+                                            class="js-range-slider specificationBlock__amount-range js-range-slider_custom js-range-slider_custom-speed"
+                                            name="speedAmountRange" value="" data-key="rangeSpeedValues" />
+                                    </div>
+                                    <div class="radio-togglers radio-togglers_wide">
+                                        <div class="radio-toggler">
+                                            <input id="guaranteedSpeed0" type="radio" name="guaranteedSpeed" value="0"
+                                                checked>
+                                            <label for="guaranteedSpeed0">Бесплатный (не гарантированый)</label>
+                                        </div>
+                                        <div class="radio-toggler">
+                                            <input id="guaranteedSpeed1" type="radio" name="guaranteedSpeed" value="1">
+                                            <label for="guaranteedSpeed1">Гарантированый</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="multiSpecificationBlock">
+                                <div class="specificationBlock">
+                                    <div class="additionals">
+                                        <div class="additionals__header">Дополнительные услуги</div>
+                                        <div class="inputwrap checkbox">
+                                            <input type="checkbox" name="soft" id="soft">
+                                            <label for="soft">
+                                                <p class="checkbox__header">Заказ ПО в аренду/покупка ПО</p>
+                                                <p class="checkbox__description">Анализ зарубежного опыта сфокусирован.
+                                                    В
+                                                    общем, точечное воздействие усиливает стиль менеджмента, осознав
+                                                    маркетинг как часть производства.</p>
+                                            </label>
+                                        </div>
+                                        <div class="inputwrap checkbox">
+                                            <input type="checkbox" name="testing" id="testing">
+                                            <label for="testing">
+                                                <p class="checkbox__header">Нужен тестовый доступ</p>
+                                                <p class="checkbox__description">Молодежная аудитория откровенна.
+                                                    Направленный маркетинг, безусловно, неоднозначен.</p>
+                                            </label>
+                                        </div>
+                                        <div class="inputwrap checkbox">
+                                            <input type="checkbox" name="consultation" id="consultation">
+                                            <label for="consultation">
+                                                <p class="checkbox__header">Нужна консультация</p>
+                                                <p class="checkbox__description">Анализ зарубежного опыта сфокусирован.
+                                                    В общем, точечное воздействие усиливает стиль менеджмента, осознав
+                                                    маркетинг как часть производства. Анализ зарубежного опыта
+                                                    сфокусирован. В общем, точечное воздействие усиливает стиль
+                                                    менеджмента, осознав маркетинг как часть производства.</p>
+                                            </label>
+                                        </div>
+                                        <div class="inputwrap checkbox">
+                                            <input type="checkbox" name="reservecopy" id="reservecopy">
+                                            <label for="reservecopy">
+                                                <p class="checkbox__header">Нужна услуга резервного копирования</p>
+                                                <p class="checkbox__description">Молодежная аудитория откровенна.
+                                                    Направленный маркетинг, безусловно, неоднозначен.</p>
+                                            </label>
+                                        </div>
+                                        <div class="inputwrap checkbox">
+                                            <input type="checkbox" name="directprovider" id="directprovider">
+                                            <label for="directprovider">
+                                                <p class="checkbox__header">Прямой договор с сервис провайдером</p>
+                                                <p class="checkbox__description">Молодежная аудитория откровенна.
+                                                    Направленный маркетинг, безусловно, неоднозначен.</p>
+                                            </label>
+                                        </div>
+                                        <div class="inputwrap checkbox">
+                                            <input type="checkbox" name="administrating" id="administrating">
+                                            <label for="administrating">
+                                                <p class="checkbox__header">Услуги адинистрирования уровня ОС/Приложений
+                                                </p>
+                                                <p class="checkbox__description">Молодежная аудитория откровенна.
+                                                    Направленный маркетинг, безусловно, неоднозначен.</p>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-sm-9 offset-sm-3 offset-xl-0">
+                    <div class="sumBlock sumBlock_table">
+                        <p class="sumBlock__final-price">19 890 ₽</p>
+                        <p class="sumBlock__final-price-notice">(без НДС)</p>
+                        <div class="sumBlock__row">
+                            <p class="sumblock-row__text">
+                                Ресурс
+                            </p>
+                            <p class="sumblock-row__quantity">
+                                Кол-во
+                            </p>
+                            <p class="sumblock-row__single">
+                                Цена
+                            </p>
+                            <p class="sumblock-row__price">
+                                Сумма
+                            </p>
+                        </div>
+                        <div class="sumBlock__row vCPUBasePrice">
+                            <p class="sumblock-row__text">
+                            </p>
+                            <p class="sumblock-row__quantity">
+                            </p>
+                            <p class="sumblock-row__single">
+                            </p>
+                            <p class="sumblock-row__price">
+                            </p>
+                        </div>
+                        <div class="sumBlock__row vRAMGBBasePrice">
+                            <p class="sumblock-row__text">
+                            </p>
+                            <p class="sumblock-row__quantity">
+                            </p>
+                            <p class="sumblock-row__single">
+                            </p>
+                            <p class="sumblock-row__price">
+                            </p>
+                        </div>
+                        <div class="sumBlock__row disksSum">
+                            <p class="sumblock-row__text">
+                            </p>
+                            <p class="sumblock-row__quantity">
+                            </p>
+                            <p class="sumblock-row__single">
+                            </p>
+                            <p class="sumblock-row__price">
+                            </p>
+                        </div>
+                        <div class="sumBlock__row extIPBasePrice">
+                            <p class="sumblock-row__text">
+                            </p>
+                            <p class="sumblock-row__quantity">
+                            </p>
+                            <p class="sumblock-row__single">
+                            </p>
+                            <p class="sumblock-row__price">
+                            </p>
+                        </div>
+                        <div class="sumBlock__row speedPrice">
+                            <p class="sumblock-row__text">
+                            </p>
+                            <p class="sumblock-row__quantity">
+                            </p>
+                            <p class="sumblock-row__single">
+                            </p>
+                            <p class="sumblock-row__price">
+                            </p>
+                        </div>
+                        <div class="sumBlock__row additionals">
+                            <p class="sumblock-row__text">
+                                Администратор свяжется с вами насчет дополнительных услуг
+                            </p>
+                        </div>
+                        <a href="#" class="sumBlock__btn btn_orange btn">
+                            <p>заказать услугу</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12 col-sm-4 col-12">
+                    <div class="footer_logo"></div>
+                </div>
+                <div class="col-xl-5 col-sm-8 col-12 d-none d-sm-block">
+                    <p class="footer__info">
+                        TopCloud (ООО «Облачные технологии») – облачный провайдер услуг и сервисов
+                        по моделям IaaS
+                        и PaaS (IT-инфраструктура в аренду) для физических лиц,
+                        стартапов, малого, среднего, крупного бизнеса, государственных учреждений
+                        и корпораций.
+                        <br>
+                        <br>
+                        Предлагаем 50+ облачных сервисов для разработки приложений, виртуальный ЦОД на базе VMware,
+                        платформу для разработки machine learning полного цикла. Соответствие 152-ФЗ.
+                        <br>
+                        <br>
+                    <p class="footer__info d-none d-xl-block">
+                        Copyright TopCloud ©. Все права защищены. 2021.
+                    </p>
+                    </p>
+                </div>
+                <div class="col-lg-2 offset-lg-1 d-none d-xl-block">
+                    <a href="#">О нас</a>
+                    <a href="#">Услуги</a>
+                    <a href="#">ЦОД</a>
+                    <a href="#">Личный кабинет</a>
+                </div>
+                <div class="col-xl-2 col-sm-4 offset-sm-4 offset-xl-0 col-12">
+                    <p class="footer__description">Техническая поддержка:</p>
+                    <a href="#" class="footer__phone">8 800 000-00-00
+                    </a>
+                    <a href="#" class="footer__mailBLue">support@topcloud.ru</a>
+                    <a href="#">Чат в Telegram</a>
+                </div>
+                <div class="col-xl-2 col-sm-4 col-12">
+                    <p class="footer__description">Отдел продаж:</p>
+                    <a href="#" class="footer__phone">8 800 000-00-00
+                    </a>
+                    <a href="#" class="footer__mailUnderlined">sales@topcloud.ru</a>
+                </div>
+                <div class="d-xl-none col-sm-8 offset-sm-4 col-12 d-none d-sm-block">
+                    <p class="footer__info copyright">
+                        Copyright TopCloud ©. Все права защищены. 2021.
+                    </p>
+                </div>
+                <div class="col-xl-5 col-sm-8 d-sm-none">
+                    <p class="footer__info">
+                        TopCloud (ООО «Облачные технологии») – облачный провайдер услуг и сервисов
+                        по моделям IaaS
+                        и PaaS (IT-инфраструктура в аренду) для физических лиц,
+                        стартапов, малого, среднего, крупного бизнеса, государственных учреждений
+                        и корпораций.
+                        <br>
+                        <br>
+                        Предлагаем 50+ облачных сервисов для разработки приложений, виртуальный ЦОД на базе VMware,
+                        платформу для разработки machine learning полного цикла. Соответствие 152-ФЗ.
+                        <br>
+                        <br>
+                    <p class="footer__info d-none d-xl-block">
+                        Copyright TopCloud ©. Все права защищены. 2021.
+                    </p>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <div class="popups">
+
+    </div>
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
+        </script>
+    <script src="fancybox-master/dist/jquery.fancybox.js"></script>
+    <script type="text/javascript" src="slick-1.8.1/slick/slick.min.js"></script>
+    <script src="ion.rangeSlider-master/js/ion.rangeSlider.min.js"></script>
+    <script src="js/script.js?v=1"></script>
+</body>
+
+</html>

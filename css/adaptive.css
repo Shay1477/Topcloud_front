@@ -1,0 +1,1533 @@
+@media (min-width: 320px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: calc(100% - 30px);
+    }
+}
+
+@media (min-width: 576px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 536px;
+    }
+}
+
+@media (min-width: 744px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 700px;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 932px;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1140px;
+    }
+}
+@media (min-width: 1440px){
+    .cybernets-instruments .col-xl-4 {
+        flex: 0 0 auto;
+        width: 33%!important;
+    }
+}
+
+@media (min-width: 1450px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1350px;
+    }
+}
+
+@media (min-width: 1720px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1680px;
+    }
+}
+
+@media (max-width: 1719px) {
+    .mainIntro-head__key {
+        margin-top: 34px;
+    }
+
+    .mainIntro__head {
+        padding-bottom: 240px;
+    }
+
+    .services-request__icons {
+        padding-right: 42px;
+    }
+
+    .services-request__icon {
+        margin-left: 40px;
+    }
+
+    .services-request-icon__bg {
+        width: 146px;
+        height: 126px;
+        filter: blur(50px);
+    }
+
+    .services__item {
+        padding: 50px 40px 10px;
+    }
+
+    .mainIntro-point__text,
+    .services-item__text {
+        font-size: 15px;
+    }
+
+    .cybernets-instrument {
+        min-height: 215px;
+    }
+
+    .radio-button label {
+        border-radius: 16px;
+        font-size: 14px;
+        line-height: 17px;
+        padding: 17px 0px;
+        width: 142px;
+    }
+
+    .radio-button {
+        margin-right: 6px;
+    }
+    .navigation__bg_kubernetes .navigation__description{
+        max-width: 83%;
+    }
+}
+
+@media (max-width: 1449px) {
+    .header__menu li a {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .mainIntro-head__key {
+        font-size: 18px;
+        margin-bottom: 16px;
+    }
+
+    h1 {
+        font-size: 46px;
+        line-height: 58px;
+    }
+
+    .mainIntro-head__text {
+        font-size: 16px;
+        line-height: 140%;
+        margin-top: 16px;
+        margin-bottom: 40px;
+    }
+
+    .mainIntro__point {
+        padding: 40px;
+    }
+
+    .mainIntro-point__img {
+        width: 70px;
+        height: 70px;
+        margin-bottom: 10px;
+    }
+
+    .mainIntro-point__img.mainIntro-point__img_wide {
+        width: 101px;
+    }
+
+    .mainIntro-point__key {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .mainIntro-point__name,
+    .services-item__name {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .mainIntro-point__text {
+        font-size: 14px;
+        line-height: 150%;
+    }
+
+    h2 {
+        margin-bottom: 40px;
+        font-size: 36px;
+        line-height: 45px;
+    }
+
+    .services__request p {
+        font-size: 18px;
+        line-height: 140%;
+    }
+
+    .services__request br {
+        display: none;
+    }
+
+    .services__request__btn {
+        padding: 18px 30px;
+        margin-top: 60px;
+    }
+
+    .services-request-icon__bg {
+        width: 121px;
+        height: 118px;
+        filter: blur(50px);
+    }
+
+    .services {
+        margin-bottom: 160px;
+    }
+
+    .footer__info {
+        font-size: 13px;
+    }
+
+    .footer a {
+        font-size: 16px;
+    }
+
+    a.footer__phone,
+    a.footer__mailBLue,
+    a.footer__mailUnderlined {
+        font-size: 18px;
+    }
+
+    .footer__description {
+        font-size: 14px;
+    }
+
+    .header__cabinetLink {
+        border-radius: 15px;
+        padding: 14px 24px;
+    }
+
+    .services-item__btn {
+        border-radius: 16px;
+        padding: 13px;
+    }
+
+    .services__request__btn {
+        border-radius: 16px;
+    }
+
+    .services-item_Orange {
+        padding: 14px 25px;
+        border-radius: 16px;
+    }
+
+    /*Удалённое рабочее место*/
+    .navigation__header {
+        font-size: 46px;
+        line-height: 57px;
+    }
+
+    .navigation__description {
+        font-size: 18px;
+    }
+
+    .rw-description-block__text {
+        font-size: 15px;
+    }
+
+    /*Конфигуратор*/
+    .navigation__bg {
+        padding-bottom: 86px;
+        padding-top: 63px;
+    }
+
+    .osRadio {
+        text-align: center;
+    }
+
+    .vendorsRadio .radio-button label {
+        border-radius: 16px;
+        line-height: 28px;
+    }
+
+    .vendors-radio-button__bg {
+        border-radius: 16px 16px 0 0;
+        height: 70px;
+    }
+
+    .vendors-radio-button__img {
+        max-width: 124px;
+        max-height: 33px;
+    }
+
+    .doubleSpecificationBlock {
+        border-radius: 16px;
+        padding-top: 0;
+        padding-bottom: 0px;
+    }
+
+    .specificationBlock__name {
+        font-size: 18px;
+    }
+
+    .specificationBlock__prompt p {
+        line-height: 22px;
+    }
+
+    .specificationBlock__prompt {
+        flex-basis: 35%;
+    }
+
+    .checkbox__header {
+        font-size: 15px;
+    }
+
+    .sumBlock {
+        border-radius: 16px;
+    }
+
+    .sumblock-row__text.sumblock-row__text_bold {
+        font-size: 18px;
+    }
+
+    .sumblock-row__text {
+        font-size: 14px;
+        max-width: 70%;
+    }
+
+    .specificationBlock {
+        padding: 30px 30px 30px;
+    }
+
+    .additionals__header {
+        font-size: 18px;
+    }
+
+    .configurator {
+        margin-bottom: 160px;
+    }
+
+    /*Topcloud Managed Kubernetes*/
+    .navigation__bg {
+        padding-bottom: 61px;
+    }
+
+    .navigation {
+        margin-bottom: 40px;
+    }
+
+    .cybernets-points {
+        margin-bottom: 80px;
+    }
+
+    .cybernets-instruments {
+        margin-bottom: 80px;
+    }
+
+    .cybernets-instruments h2,
+    .cybernets h2 {
+        margin-bottom: 86px;
+    }
+
+    .multiSpecificationBlock {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-bottom: 24px;
+    }
+
+    .cybernets-instrument {
+        padding: 40px 73px 36px 28px;
+        min-height: 240px;
+    }
+
+    .wrap-xl {
+        flex-wrap: wrap;
+    }
+
+}
+
+@media (max-width: 1199px) {
+    .section {
+        margin-bottom: 160px;
+    }
+
+    .mainIntro__point_orange {
+        margin-top: 50px;
+    }
+
+    .services-item__bottom,
+    .services-item__top {
+        min-height: 336px;
+    }
+
+    .mainIntro__point {
+        padding: 45px 30px;
+        min-height: 330px;
+    }
+
+    .mainIntro__head {
+        padding-bottom: 160px;
+    }
+
+    .services-request-icon__bg {
+        width: 112px;
+        height: 96px;
+    }
+
+    .regimeToggler {
+        margin-bottom: 20px;
+    }
+
+    .footer__menu {
+        display: none;
+    }
+
+    .footer_logo {
+        height: 131px;
+        width: auto;
+        background-repeat: no-repeat;
+        background-size: 208px;
+    }
+
+    p.copyright {
+        padding-top: 21px;
+    }
+
+
+    /*Конфигуратор*/
+    .radio-button label {
+        border-radius: 10px;
+        font-size: 13px;
+        line-height: 16px;
+        padding: 14px 0px;
+        width: 177px;
+    }
+
+    .ul__text {
+        max-width: calc(100% - 40px);
+    }
+    .mainIntro__point {
+        margin-bottom: 24px;
+    }
+}
+
+@media (max-width: 991px) {
+    section {
+        margin-bottom: 100px;
+    }
+
+    .headerOffset {
+        margin-top: 70px;
+    }
+
+    .header {
+        height: 70px;
+    }
+
+    .header__menu li a {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .header__menu li {
+        margin-right: 30px;
+    }
+
+    .header__logo {
+        height: 50px;
+        width: 79px;
+        background-size: 79px;
+        background-repeat: no-repeat;
+    }
+
+    .header__cabinetLink p {
+        padding-left: 34px;
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .header__cabinetLink {
+        border-radius: 10px;
+        padding: 11px 16px;
+    }
+
+    .mainIntro-head__key {
+        font-size: 16px;
+        margin-bottom: 13px;
+        text-align: center;
+    }
+
+    .mainIntro-head__header {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .mainIntro-head__text {
+        font-size: 18px;
+        margin-top: 60px;
+    }
+
+    .mainIntro-head__block {
+        text-align: center;
+    }
+
+    .mainIntro__head {
+        padding-top: 60px;
+    }
+
+    .mainIntro-point__img {
+        width: 62px;
+        height: 62px;
+    }
+
+    .mainIntro-point__key {
+        font-size: 13px;
+    }
+
+    .mainIntro-point__name,
+    .services-item__name {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .mainIntro__point {
+        padding: 30px 30px;
+        min-height: 330px;
+    }
+
+    .mainIntro__point.mainIntro__point_green {
+        min-height: 286px;
+    }
+
+    .services-item__bottom {
+        min-height: 390px;
+    }
+
+    .services-item__top,
+    .services-item__BtnMin {
+        min-height: 340px;
+    }
+
+    .services__item {
+        padding: 50px 30px 30px;
+    }
+
+    .services-item__btn,
+    .services-item_Orange {
+        bottom: 30px;
+        left: 30px;
+    }
+
+    .services-item_Orange {
+        font-size: 15px;
+    }
+
+    .services__request {
+        padding: 63px 0px 74px 0px;
+    }
+
+    .services-request__icons {
+        padding-right: 23px;
+    }
+
+    h2 {
+        margin-bottom: 30px;
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .services__request p {
+        font-size: 15px;
+    }
+
+    .services__request__btn {
+        margin-top: 37px;
+    }
+
+    .services-request__text {
+        padding-left: 59px;
+    }
+
+    .slick-slide img {
+        transform: scale(0.5);
+    }
+
+    .partnersSlider a {
+        height: 90px;
+        margin: 0 5px;
+        border-radius: 26px;
+    }
+
+    .partnersSlider_mobile a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #242236;
+        border-radius: 16px;
+        height: 67px;
+        margin-bottom: 8px;
+    }
+
+    .partnersSlider_mobile a img {
+        max-width: 70%;
+        max-height: 70%;
+        object-fit: contain;
+    }
+
+    section.mainIntro,
+    section.partners {
+        margin-bottom: 160px;
+    }
+
+    .services {
+        margin-bottom: 100px;
+    }
+
+    /*Удалённое рабочее место*/
+    .navigation__link p {
+        margin-bottom: 30px;
+    }
+
+    .navigation__header {
+        font-size: 38px;
+        line-height: 47px;
+    }
+
+    .navigation__description {
+        font-size: 16px;
+    }
+
+    .navigation__bg {
+        border-radius: 32px;
+        padding-bottom: 61px;
+        padding-top: 60px;
+    }
+
+    .rw-description__block {
+        padding: 20px;
+    }
+
+    .rw-description-block__header {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .rw-description-block__text {
+        font-size: 14px;
+    }
+
+    .ul__text {
+        font-size: 14px;
+        max-width: calc(100% - 40px);
+    }
+
+    .rw-description-block__ul li:last-child {
+        margin-bottom: 0;
+    }
+
+    .remoteTypeRadio__name {
+        margin-bottom: 16px;
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .remoteTypeRadio .radio-button label {
+        padding: 20px;
+    }
+
+    .remoteTypeRadio__description {
+        font-size: 18px;
+    }
+
+    /*Конфигуратор*/
+    .navigation__bg {
+        padding: 40px 83px 60px 60px;
+    }
+
+    .navigation__link p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .navigation__link p {
+        display: flex;
+        align-items: center;
+    }
+
+    .navigation {
+        margin-bottom: 40px;
+    }
+
+    .radio-button label {
+        width: 131px;
+    }
+
+    .vendors-radio-button__img {
+        max-width: 108px;
+        max-height: 29px;
+    }
+
+    .vendors-radio-button__bg {
+        height: 60px;
+    }
+
+    .vendorsRadio__coming-soon p {
+        font-size: 14px;
+        line-height: 17px;
+        padding: 23px 46px;
+    }
+
+    .vendorsRadio__coming-soon {
+        height: 80px;
+        border-radius: 16px;
+    }
+
+    .wrap-md {
+        display: block;
+    }
+
+    .specificationBlock__prompt {
+        margin-bottom: 12px;
+    }
+
+    .radio-togglers label {
+        font-size: 14px;
+        line-height: 17px;
+        width: 90px;
+    }
+
+    .specificationBlock__name {
+        font-size: 16px;
+    }
+
+    .duplicateBtn p {
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    .checkbox__description {
+        font-size: 13px;
+    }
+
+    .sumBlock {
+        border-radius: 16px;
+        padding: 30px;
+    }
+
+    .sumblock-row__price {
+        font-size: 14px;
+    }
+
+    .duplicateBtn {
+        margin-bottom: 24px;
+    }
+
+    /*Topcloud Managed Kubernetes*/
+    .navigation__bg.navigation__bg_kubernetes {
+        padding: 60px 102px 60px 40px;
+    }
+
+    .cybernets-point_blue,
+    .cybernets-point_orange,
+    .cybernets-point_green {
+        display: flex;
+        margin-bottom: 24px;
+    }
+
+    .cybernets-point__img {
+        height: auto;
+        margin-right: 24px;
+    }
+
+    .cybernets-point {
+        border-radius: 24px;
+        padding: 30px 30px;
+    }
+
+    .cybernets-point__desctiption {
+        font-size: 15px;
+        min-height: auto;
+    }
+
+    .cybernets-point__name {
+        margin: 0 0 16px 0;
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .cybernets-points {
+        margin-bottom: 60px;
+    }
+
+    .cybernets-instruments h2,
+    .cybernets h2 {
+        margin-bottom: 35px;
+    }
+
+    .cybernets-instrument__name {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .cybernets-instrument__description {
+        font-size: 14px;
+    }
+
+    .cybernets-instrument {
+        border-radius: 24px;
+        padding: 36px 88px 36px 28px;
+    }
+
+    .cybernets-instruments {
+        margin-bottom: 60px;
+    }
+
+    .cybernets .specificationBlock__name {
+        font-size: 20px;
+    }
+
+    .radio-button-classic__name {
+        font-size: 15px;
+        margin-bottom: 8px;
+    }
+
+    .radio-button-classic__description {
+        font-size: 13px;
+    }
+
+    .specificationBlock {
+        padding: 40px 30px 30px;
+    }
+
+    .multiSpecificationBlock {
+        border-radius: 16px;
+    }
+
+    .container .sumBlock {
+        border-radius: 16px;
+        padding: 40px 24px;
+    }
+
+    .cybernets-instrument {
+        min-width: 336px;
+    }
+}
+
+@media (max-width: 743px) {
+
+    .menuBtn,
+    .mobileMenu {
+        display: block;
+    }
+
+    .header__menu:not(.header__menu_mobile) {
+        display: none;
+    }
+
+    .header__cabinetLink p {
+        font-size: 0;
+        line-height: 24px;
+        padding-left: 24px;
+    }
+
+    .header__cabinetLink {
+        padding: 9px;
+    }
+
+    section,
+    section.mainIntro,
+    section.partners {
+        margin-bottom: 80px;
+    }
+
+    h1 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .mainIntro-head__key {
+        font-size: 13px;
+        margin-bottom: 8px;
+    }
+
+    .mainIntro-head__text {
+        font-size: 15px;
+        margin-top: 40px;
+    }
+
+    .mainIntro-head__link p {
+        font-size: 15px;
+    }
+
+    .mainIntro__head {
+        padding-bottom: 80px;
+    }
+
+    .mainIntro__point_orange {
+        margin-top: 0px;
+    }
+
+    .mainIntro__point_blue {
+        margin-top: 0px;
+    }
+
+    .mainIntro-point__text {
+        font-size: 13px;
+    }
+
+    /**/
+    .services__item {
+        padding: 40px 30px 30px;
+    }
+
+    .mainIntro-point__text,
+    .services-item__text {
+        font-size: 14px;
+    }
+
+    .services-item__bottom {
+        min-height: 415px;
+    }
+
+    .services-item__top,
+    .services-item__BtnMin {
+        min-height: 385px;
+    }
+
+    .services-item_Orange {
+        z-index: 1;
+    }
+
+    .services__request {
+        position: relative;
+    }
+
+    .services-request__icons {
+        position: absolute;
+        top: 40px;
+        width: 89%;
+        right: 0;
+        opacity: 0.6;
+        filter: blur(3.5px);
+    }
+
+    .footer_logo {
+        height: 140px;
+        background-size: 140px;
+    }
+
+    .footer__description {
+        line-height: 140%;
+        min-height: 40px;
+    }
+
+    /*Удалённое рабочее место*/
+    .custom-md-12 {
+        min-width: 100%;
+    }
+
+    .rw-description__block {
+        margin-bottom: 24px;
+    }
+
+    .remoteTypeRadio__name {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .remoteTypeRadio__description {
+        font-size: 16px;
+    }
+
+    /*Конфигуратор*/
+    .radio-buttons {
+        margin-bottom: 24px;
+        text-align: center;
+    }
+
+    .radio-button {
+        margin-right: 4px;
+        margin-bottom: 8px;
+    }
+
+    .vendorsRadio .radio-button {
+        margin-right: 4px;
+        margin-bottom: 8px;
+    }
+
+    .vendors-radio-button__img {
+        max-width: 99px;
+        max-height: 27px;
+    }
+
+    .vendorsRadio .radio-button label {
+        border-radius: 14px;
+        line-height: 26px;
+    }
+
+    .vendorsRadio__coming-soon p {
+        padding: 21px 46px;
+    }
+
+    .multiSpecificationBlock {
+        border-radius: 16px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-bottom: 16px;
+    }
+
+    .specificationBlock {
+        padding: 20px 15px;
+    }
+
+    .radio-togglers label {
+        width: 73px;
+    }
+
+    .specificationBlock__amount {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .duplicateBtn {
+        padding: 19px 0;
+        border-radius: 16px;
+    }
+
+    .duplicateBtn {
+        margin-bottom: 16px;
+    }
+
+    .multiSpecificationBlock.diskBlock {
+        margin-bottom: 8px;
+    }
+
+    .radio-togglers.radio-togglers_wide label {
+        padding: 8px 10px;
+        font-size: 13px;
+        line-height: 22px;
+    }
+
+    .configurator {
+        margin-bottom: 80px;
+    }
+
+    .navigation__bg {
+        padding: 30px;
+    }
+
+    /*Topcloud Managed Kubernetes*/
+    .cybernets-instrument {
+        border-radius: 16px;
+        padding: 30px 88px 26px 18px;
+        min-width: 255px;
+        min-height: 170px;
+    }
+
+    /*меню*/
+    .lines-button {
+        position: relative;
+        float: right;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+        width: 44px;
+        height: 44px;
+        font-size: 0;
+        text-indent: -9999px;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        box-shadow: none;
+        border: none;
+        cursor: pointer;
+        -webkit-transition: background 0.3s;
+        transition: background 0.3s;
+        background: rgba(113, 135, 255, 0.2);
+        border-radius: 10px;
+    }
+
+    .lines-button:focus {
+        outline: none;
+    }
+
+    .lines-button span {
+        display: block;
+        position: absolute;
+        left: 13px;
+        top: calc(50% - 0.75px);
+        height: 1.5px;
+        width: calc(100% - 26px);
+        background: #7187FF;
+        ;
+    }
+
+    .lines-button span::before,
+    .lines-button span::after {
+        position: absolute;
+        display: block;
+        left: 0;
+        width: 100%;
+        height: 1.5px;
+        background-color: #7187FF;
+        content: "";
+    }
+
+    .lines-button span::before {
+        top: -5px;
+    }
+
+    .lines-button span::after {
+        bottom: -5px;
+    }
+
+    .lines span {
+        -webkit-transition: background 0s 0.3s;
+        transition: background 0s 0.3s;
+    }
+
+    .lines span::before,
+    .lines span::after {
+        -webkit-transition-duration: 0.3s, 0.3s;
+        transition-duration: 0.3s, 0.3s;
+    }
+
+    .lines span::before {
+        -webkit-transition-property: top, -webkit-transform;
+        transition-property: top, transform;
+    }
+
+    .lines span::after {
+        -webkit-transition-property: bottom, -webkit-transform;
+        transition-property: bottom, transform;
+    }
+
+    .lines.close {
+        background: rgba(232, 52, 138, 0.2);
+    }
+
+    .lines.close span {
+        visibility: hidden;
+    }
+
+    .lines.close span::before {
+        top: 0;
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+        visibility: visible;
+        background-color: #FF002E;
+    }
+
+    .lines.close span::after {
+        bottom: 0;
+        -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        visibility: visible;
+        background-color: #FF002E;
+    }
+
+    .mobileMenu {
+        position: fixed;
+        width: 100%;
+        height: calc(100% - 70px);
+        top: 70px;
+        background: rgba(40, 39, 56, 0.9);
+        backdrop-filter: blur(20px);
+        z-index: 9999;
+        display: none;
+    }
+
+    .header__menu_mobile {
+        flex-wrap: wrap;
+        margin-top: 150px;
+    }
+
+    .header__menu_mobile li {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 80px;
+        text-align: center;
+    }
+
+    .header__menu_mobile li a {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 27px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        text-align: center;
+    }
+    .mainIntro__point {
+        margin-bottom: 16px;
+    }
+    .navigation__bg_kubernetes .navigation__description{
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 575px) {
+
+    .col,
+    [class*="col-"] {
+        padding-right: 4px;
+        padding-left: 4px;
+    }
+
+    .row {
+        margin-right: -4px !important;
+        margin-left: -4px !important;
+    }
+
+    .mainIntro-head__link {
+        width: 100%;
+    }
+
+    .mainIntro-head__block p {
+        display: inline-block;
+    }
+
+    .services-item__top,
+    .services-item__BtnMin {
+        min-height: 329px;
+    }
+
+    .services-item__bottom {
+        min-height: auto;
+        padding-bottom: 120px
+    }
+
+    .services__request {
+        padding: 40px 30px 30px;
+    }
+
+    .services-request__text {
+        padding-left: 0px;
+    }
+
+    h2 {
+        margin-bottom: 16px;
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .services__request__btn {
+        margin-top: 40px;
+        width: 100%;
+        position: relative;
+        z-index: 2;
+    }
+
+    .services-request__icons {
+        width: 100%;
+    }
+
+
+    .footer {
+        text-align: center;
+        padding: 30px 0 17px;
+    }
+
+    .services {
+        margin-bottom: 80px;
+    }
+
+    .footer_logo {
+        height: 95px;
+        background-size: 150px;
+        margin: auto;
+        display: block;
+        margin-bottom: 30px;
+        width: 151px;
+    }
+
+    a.footer__phone,
+    a.footer__mailBLue,
+    a.footer__mailUnderlined {
+        font-size: 20px;
+    }
+
+    .footer__description,
+    .footer__info {
+        margin-top: 16px;
+    }
+
+    a.footer__mailUnderlined {
+        line-height: 20px;
+    }
+
+    .footer__description {
+        min-height: auto;
+    }
+
+    /*Удалённое рабочее место*/
+    .navigation__bg {
+        border-radius: 16px;
+        padding: 30px;
+    }
+
+    .navigation__header {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .navigation__header {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .navigation__header {
+        margin-bottom: 18px;
+    }
+
+    .navigation__header {
+        margin-bottom: 16px;
+    }
+
+    .navigation {
+        margin-bottom: 30px;
+    }
+
+    .navigation__description {
+        font-size: 14px;
+    }
+
+    .rw-description-block__header {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .rw-description-block__text {
+        font-size: 13px;
+    }
+
+    .rw-description-block__header {
+        margin-bottom: 16px;
+    }
+
+    .rw-description-block__ul-header {
+        margin-bottom: 16px;
+        font-size: 16px;
+    }
+
+    .regimeToggler {
+        margin-bottom: 16px;
+        margin-top: 0;
+    }
+
+    .remoteTypeRadio .radio-button {
+        width: auto;
+    }
+
+    .remoteTypeRadio {
+        margin-bottom: 22px;
+    }
+
+
+    /*Конфигуратор*/
+    .navigation__link p {
+        font-size: 13px;
+    }
+
+    .radio-button label {
+        width: auto;
+    }
+
+    .radio-button label {
+        border-radius: 10px;
+        padding: 14px 19px;
+    }
+
+    .vendorsRadio .radio-button {
+        width: 48%;
+    }
+
+    .osRadio .radio-button {
+        width: calc(50% - 6px);
+    }
+
+    .vendorsRadio__coming-soon {
+        height: 60px;
+        margin-top: 8px;
+    }
+
+    .specificationBlock__prompt p {
+        font-size: 13px;
+    }
+
+    .specificationBlock__prompt p {
+        display: flex;
+        align-items: center;
+    }
+
+    .radio-togglers label {
+        width: 58px;
+    }
+
+    .duplicateBtn {
+        height: 60px;
+        border-radius: 16px;
+    }
+
+    .specificationBlock__name {
+        text-align: inherit;
+    }
+
+    .radio-togglers.radio-togglers_wide .radio-toggler label {
+        border-radius: 8px;
+        margin-bottom: 4px;
+    }
+
+    .checkbox__header {
+        font-size: 14px;
+    }
+
+    .sumBlock__btn {
+        font-size: 15px;
+    }
+
+    .sumBlock__btn {
+        margin-top: 40px;
+        border-radius: 16px;
+        padding: 18px 0px;
+    }
+
+    .sumBlock {
+        padding: 20px;
+    }
+
+    /*Topcloud Managed Kubernetes*/
+    .navigation__bg.navigation__bg_kubernetes {
+        padding: 30px;
+    }
+
+    .cybernets-point {
+        border-radius: 16px;
+        padding: 20px;
+    }
+
+    .cybernets-point__img {
+        height: 40px;
+        margin-right: 16px;
+    }
+
+    .cybernets-point__name {
+        margin: 0px 0 8px 0;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .cybernets-point__desctiption {
+        font-size: 13px;
+    }
+
+    .cybernets-point_blue,
+    .cybernets-point_orange,
+    .cybernets-point_green {
+        margin-bottom: 8px;
+    }
+
+    .cybernets-points {
+        margin-bottom: 48px;
+    }
+
+    .cybernets-instruments h2 {
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 21px;
+    }
+
+    .cybernets-instrument {
+        padding: 30px 99px 26px 18px;
+        min-width: 330px;
+        min-height: 140px;
+        margin-bottom: 8px;
+    }
+
+    .cybernets-instruments {
+        margin-bottom: 32px;
+    }
+
+    .cybernets-instruments h2,
+    .cybernets h2 {
+        margin-bottom: 24px;
+    }
+
+    .cybernets .specificationBlock__name {
+        font-size: 18px;
+    }
+
+    .specificationBlock {
+        padding: 20px 20px;
+    }
+
+    .radio-button-classic__name {
+        font-size: 14px;
+        margin-bottom: 4px;
+    }
+
+    body .inputWrap .select2-container {
+        width: 133px !important;
+    }
+
+    .container .sumBlock {
+        padding: 20px;
+    }
+
+    .select2-container--default .select2-selection--single .select2-selection__rendered,
+    .select2-selection__placeholder {
+        font-size: 14px;
+    }
+
+    .select2-results__option {
+        font-size: 14px;
+    }
+    .sumblock-row__text.sumblock-row__text_bold {
+        font-size: 14px;
+    }
+    .sumblock-row__text {
+        font-size: 12px;
+    }
+}

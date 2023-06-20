@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>topcloud</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <!--<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700;800&display=swap" rel="stylesheet">-->
+    <link href="fancybox-master/dist/jquery.fancybox.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick-theme.css" />
+
+    <link rel="stylesheet" href="css/styles.css?v=1">
+    <link rel="stylesheet" href="css/adaptive.css?v=1">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="spaceBetween alignCenter desktopMenu">
+                <button class="lines-button lines menuBtn"><span></span></button>
+                <div class="header__logo"></div>
+                <ul class="header__menu alignCenter justifyStart">
+                    <li>
+                        <a href="#">О нас</a>
+                    </li>
+                    <li>
+                        <a href="#">Услуги</a>
+                    </li>
+                    <li>
+                        <a href="#">конфигуратор</a>
+                    </li>
+                    <li>
+                        <a href="#" class="uppercase">ЦОД</a>
+                    </li>
+                </ul>
+                <a href="#" class="btn btn_dark header__cabinetLink">
+                    <p>личный кабинет</p>
+                </a>
+            </div>
+        </div>
+    </header>
+    <div class="mobileMenu">
+        <ul class="header__menu header__menu_mobile alignCenter justifyStart">
+            <li>
+                <a href="#">О нас</a>
+            </li>
+            <li>
+                <a href="#">Услуги</a>
+            </li>
+            <li>
+                <a href="#">конфигуратор</a>
+            </li>
+            <li>
+                <a href="#" class="uppercase">ЦОД</a>
+            </li>
+        </ul>
+    </div>
+    <div class="headerOffset"></div>
+    <section class="mainIntro">
+        <div class="mainIntro__head">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <p class="mainIntro-head__key">Первый облачный агрегатор</p>
+                        <h1 class="mainIntro-head__header"><span>TopCloud</span> ваш проводник в мир облаков </h1>
+                        <div class="d-none d-lg-block">
+                            <p class="mainIntro-head__text">Поможем найти одного или нескольких наиболее подходящих
+                                сервис-провайдеров как независимый поставщик облачных услуг. </p>
+                            <a href="#" class="btn btn_violet mainIntro-head__link">
+                                <p>конфигуратор</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="justifyEnd">
+                            <img src="img/introimg.png" alt="" class="mainIntro-head__img">
+                        </div>
+                    </div>
+                    <div class="d-lg-none mainIntro-head__block">
+                        <p class="mainIntro-head__text">Поможем найти одного или нескольких наиболее подходящих
+                            сервис-провайдеров как независимый поставщик облачных услуг. </p>
+                        <a href="#" class="btn btn_violet mainIntro-head__link">
+                            <p>конфигуратор</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mainIntro__points">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-4 col-sm-6 col-12">
+                        <div class="mainIntro__point mainIntro__point_blue">
+                            <div class="mainIntro-point__img mainIntro-point__img_wide"
+                                style="background-image: url(img/clouds.svg);"></div>
+                            <p class="mainIntro-point__key">ИННОВАЦИИ УПРАВЛЕНИЯ ОБЛАКАМИ</p>
+                            <p class="mainIntro-point__name">Новый взгляд на управление облачными услугами</p>
+                            <p class="mainIntro-point__text">Работайте с несколькими дата-центрами от разных
+                                сервис-провайдеров со всего мира в едином интерфейсе и получайте действительно
+                                отказоустойчивые облака.</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-sm-6 col-12">
+                        <div class="mainIntro__point mainIntro__point_orange">
+                            <div class="mainIntro-point__img" style="background-image: url(img/world.svg);"></div>
+                            <p class="mainIntro-point__key">оТКАЗОУСТОЙЧИВЫЕ БИЗНЕС РЕШЕНИЯ</p>
+                            <p class="mainIntro-point__name">Геораспределение</p>
+                            <p class="mainIntro-point__text">Ядро TopCloud размещено одновременно в каждом ЦОД
+                                сервис-провайдера, которого мы предлагаем. Таким образом в случае аварии одного или
+                                нескольких сервис-провайдеров, интерфейс управления будет доступен.</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-sm-8 offset-sm-2 offset-xl-0 col-12 offset-0">
+                        <div class="mainIntro__point mainIntro__point_green">
+                            <div class="mainIntro-point__img" style="background-image: url(img/functionality.svg);">
+                            </div>
+                            <p class="mainIntro-point__key">МАКСИМАЛЬНЫЙ ФУНКЦИОНАЛ</p>
+                            <p class="mainIntro-point__name">Интеграции</p>
+                            <p class="mainIntro-point__text">TopCloud интегрируется по API с множеством информационных
+                                систем сервис-провайдеров в разных частях света, чтобы предоставить возможность
+                                управления из единого интерфейса управления. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="partners">
+        <h2>НАШИ ПАРТНЁРЫ</h2>
+        <div class="partnersSlider d-none d-sm-block relative ">
+            <a href="#">
+                <img src="img/cloud1.png" alt="">
+            </a>
+            <a href="#">
+                <img src="img/dataline.png" alt="">
+            </a>
+            <a href="#">
+                <img src="img/cloud4y.png" alt="">
+            </a>
+            <a href="#">
+                <img src="img/vmware.png" alt="">
+            </a>
+            <a href="#">
+                <img src="img/Microsoft.png" alt="">
+            </a>
+            <a href="#">
+                <img src="img/veeam.png" alt="">
+            </a>
+            <a href="#">
+                <img src="img/rstc.png" alt="">
+            </a>
+        </div>
+        <div class="partnersSlider_mobile container d-xs-block d-sm-none">
+            <div class="row">
+                <div class="col-6">
+                    <a href="#">
+                        <img src="img/cloud1.png" alt="">
+                    </a>
+                </div>
+                <div class="col-6">
+                    <a href="#">
+                        <img src="img/dataline.png" alt="">
+                    </a>
+                </div>
+                <div class="col-6">
+                    <a href="#">
+                        <img src="img/cloud4y.png" alt="">
+                    </a>
+                </div>
+                <div class="col-6">
+                    <a href="#">
+                        <img src="img/vmware.png" alt="">
+                    </a>
+                </div>
+                <div class="col-6">
+                    <a href="#">
+                        <img src="img/Microsoft.png" alt="">
+                    </a>
+                </div>
+                <div class="col-6">
+                    <a href="#">
+                        <img src="img/veeam.png" alt="">
+                    </a>
+                </div>
+                <div class="col-6">
+                    <a href="#">
+                        <img src="img/rstc.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2>УСЛУГИ</h2>
+                </div>
+                <div class="col-xl-4 col-sm-6">
+                    <div class="services__item services-item__top">
+                        <p class="services-item__name">Выбор сервис провайдера IaaS</p>
+                        <p class="services-item__text">Для размещения сервиса предоставляется физический сервер вместе
+                            с облачными ресурсами в одном интерфейсе.</p>
+                        <a href="#" class="btn services-item__btn btn_violet">
+                            <p></p>
+                        </a>
+                        <div class="services-item__imgBG services-item__imgBG_violet"></div>
+                        <img src="img/cloud-connection.svg" alt="" class="services-item__img">
+                    </div>
+                </div>
+                <div class="col-xl-4 col-sm-6">
+                    <div class="services__item services-item__top">
+                        <p class="services-item__name">Удаленное рабочее место</p>
+                        <p class="services-item__text">Два тарифа: удаленный рабочий стол RDP и удаленное рабочее место
+                            VDI — расширенный доступ к полноценному виртуальному ПК.</p>
+                        <a href="#" class="btn services-item__btn btn_pink">
+                            <p></p>
+                        </a>
+                        <div class="services-item__imgBG services-item__imgBG_pink"></div>
+                        <img src="img/remote.svg" alt="" class="services-item__img">
+                    </div>
+                </div>
+                <div class="col-xl-4 col-sm-6">
+                    <div class="services__item services-item__top">
+                        <p class="services-item__name">Интеграционный проект</p>
+                        <p class="services-item__text">Миграция облачной инфраструктуры, поставка специализированного
+                            ПО и аппаратного оборудования.</p>
+                        <a href="#" class="btn services-item__btn btn_green">
+                            <p></p>
+                        </a>
+                        <div class="services-item__imgBG services-item__imgBG_green"></div>
+                        <img src="img/PuzzlePiece.svg" alt="" class="services-item__img">
+                    </div>
+                </div>
+                <div class="col-xl-4 col-sm-6">
+                    <div class="services__item services-item__bottom services-item__BtnMin">
+                        <p class="services-item__name">Резервное копирование
+                            и восстановление данных</p>
+                        <p class="services-item__text">Единая панель управления расписанием резервного копирования и
+                            возможностью восстановления для нескольких независимых площадок.</p>
+                        <a href="#" class="btn services-item__btn btn_blue">
+                            <p></p>
+                        </a>
+                        <div class="services-item__imgBG services-item__imgBG_blue"></div>
+                        <img src="img/Copy.svg" alt="" class="services-item__img">
+                    </div>
+                </div>
+                <div class="col-xl-4 col-sm-6">
+                    <div class="services__item services-item__bottom">
+                        <p class="services-item__name">Администрирование уровня ОС
+                            в Облаке</p>
+                        <p class="services-item__text">Снижение нагрузки на свой IT-персонал и организация рабочего
+                            процесса разработчиков. Без рисков, связанных
+                            с настройкой ОС, включая угрозы безопасности, потерю контроля над сервером и другие
+                            сложности.</p>
+                        <a href="#" class="btn services-item__btn btn_yellow">
+                            <p></p>
+                        </a>
+                        <div class="services-item__imgBG services-item__imgBG_yellow"></div>
+                        <img src="img/data-2.svg" alt="" class="services-item__img">
+                    </div>
+                </div>
+                <div class="col-xl-4 col-sm-6">
+                    <div class="services__item services-item__bottom">
+                        <p class="services-item__name">Уже есть техническое задание? пришлите его нам через форму</p>
+                        <p class="services-item__text">Тут может быть пояснительный текст про формат файла
+                            или что-то другое, разгуляться можно аж на 3 строки текста, как мне кажется, но не более.
+                        </p>
+                        <a href="#" class="btn services-item_Orange">
+                            <p>отправить запрос</p>
+                        </a>
+                        <div class="services-item__imgBG services-item__imgBG_orange"></div>
+                        <img src="img/CaseRound.svg" alt="" class="services-item__img">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="services__request">
+                <div class="row">
+                    <div class="col-sm-6 offset-xl-1">
+                        <div class="services-request__text">
+                            <h2>Не знаете какая услуга подойдет для ваших задач?</h2>
+                            <p>Оставьте заявку на нашем сайте и мы вам ответим в удобное для вас время!
+                                <br />
+                                Или позвонить нам по
+                                номеру <a href="tel:+00 000 000 00">+00 000 000 00</a>
+                                <br />
+                                А так же можете написать на почту <a href="mailto:sales@topcloud.ru"
+                                    class="services-request__mailUnderlined">sales@topcloud.ru
+                                </a>
+                            </p>
+                            <a href="#" class="btn services__request__btn">
+                                <p>оставить заявку</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-sm-6 offset-xl-1">
+                        <div class="justifyEnd services-request__icons wrap">
+                            <div class="services-request__icon">
+                                <div class="services-request-icon__bg services-request-icon__bg_violet"></div>
+                                <div class="justifyCenter alignCenter">
+                                    <img src="img/cloud-connection1.svg" class="services-request-icon__img">
+                                </div>
+                            </div>
+                            <div class="services-request__icon">
+                                <div class="services-request-icon__bg services-request-icon__bg_pink"></div>
+                                <div class="justifyCenter alignCenter">
+                                    <img src="img/remote1.svg" class="services-request-icon__img">
+                                </div>
+                            </div>
+                            <div class="services-request__icon">
+                                <div class="services-request-icon__bg services-request-icon__bg_blue"></div>
+                                <div class="justifyCenter alignCenter">
+                                    <img src="img/Copy1.svg" class="services-request-icon__img">
+                                </div>
+                            </div>
+                            <div class="services-request__icon">
+                                <div class="services-request-icon__bg services-request-icon__bg_green"></div>
+                                <div class="justifyCenter alignCenter">
+                                    <img src="img/PuzzlePiece1.svg" class="services-request-icon__img">
+                                </div>
+                            </div>
+                            <div class="services-request__icon">
+                                <div class="services-request-icon__bg services-request-icon__bg_yellow"></div>
+                                <div class="justifyCenter alignCenter">
+                                    <div class="justifyCenter alignCenter">
+                                        <img src="img/data-21.svg" class="services-request-icon__img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12 col-sm-4 col-12">
+                    <div class="footer_logo"></div>
+                </div>
+                <div class="col-xl-5 col-sm-8 col-12 d-none d-sm-block">
+                    <p class="footer__info">
+                        TopCloud (ООО «Облачные технологии») – облачный провайдер услуг и сервисов
+                        по моделям IaaS
+                        и PaaS (IT-инфраструктура в аренду) для физических лиц,
+                        стартапов, малого, среднего, крупного бизнеса, государственных учреждений
+                        и корпораций.
+                        <br>
+                        <br>
+                        Предлагаем 50+ облачных сервисов для разработки приложений, виртуальный ЦОД на базе VMware,
+                        платформу для разработки machine learning полного цикла. Соответствие 152-ФЗ.
+                        <br>
+                        <br>
+                    <p class="footer__info d-none d-xl-block">
+                        Copyright TopCloud ©. Все права защищены. 2021.
+                    </p>
+                    </p>
+                </div>
+                <div class="col-lg-2 offset-lg-1 d-none d-xl-block">
+                    <a href="#">
+                        <p>О нас</p>
+                    </a>
+                    <a href="#">
+                        <p>Услуги</p>
+                    </a>
+                    <a href="#">
+                        <p>ЦОД</p>
+                    </a>
+                    <a href="#">
+                        <p>Личный кабинет</p>
+                    </a>
+                </div>
+                <div class="col-xl-2 col-sm-4 offset-sm-4 offset-xl-0 col-12">
+                    <p class="footer__description">Техническая поддержка:</p>
+                    <a href="#" class="footer__phone">
+                        <p>
+                            8 800 000-00-00</p>
+                    </a>
+                    <a href="#" class="footer__mailBLue">
+                        <p>support@topcloud.ru</p>
+                    </a>
+                    <a href="#">
+                        <p>Чат в Telegram</p>
+                    </a>
+                </div>
+                <div class="col-xl-2 col-sm-4 col-12">
+                    <p class="footer__description">Отдел продаж:</p>
+                    <a href="#" class="footer__phone">
+                        <p>8 800 000-00-00</p>
+                    </a>
+                    <a href="#" class="footer__mailUnderlined">
+                        <p>sales@topcloud.ru</p>
+                    </a>
+                </div>
+                <div class="d-xl-none col-sm-8 offset-sm-4 col-12 d-none d-sm-block">
+                    <p class="footer__info copyright">
+                        Copyright TopCloud ©. Все права защищены. 2021.
+                    </p>
+                </div>
+                <div class="col-xl-5 col-sm-8 d-sm-none">
+                    <p class="footer__info">
+                        TopCloud (ООО «Облачные технологии») – облачный провайдер услуг и сервисов
+                        по моделям IaaS
+                        и PaaS (IT-инфраструктура в аренду) для физических лиц,
+                        стартапов, малого, среднего, крупного бизнеса, государственных учреждений
+                        и корпораций.
+                        <br>
+                        <br>
+                        Предлагаем 50+ облачных сервисов для разработки приложений, виртуальный ЦОД на базе VMware,
+                        платформу для разработки machine learning полного цикла. Соответствие 152-ФЗ.
+                        <br>
+                        <br>
+                    <p class="footer__info d-none d-xl-block">
+                        Copyright TopCloud ©. Все права защищены. 2021.
+                    </p>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <div class="popups">
+
+    </div>
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
+        </script>
+    <script src="fancybox-master/dist/jquery.fancybox.js"></script>
+    <script type="text/javascript" src="slick-1.8.1/slick/slick.min.js"></script>
+    <script src="js/script.js?v=1"></script>
+</body>
+
+</html>
